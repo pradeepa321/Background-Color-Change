@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		
+	</head>
+	<body>
+		<button onclick="names()">Click</button>
+		<script>
+			//math random color change
+				function names(){
+						let r=Math.floor(Math.random()*(255-0)+0);
+						let g=Math.floor(Math.random()*(255-0)+0);
+						let b=Math.floor(Math.random()*(255-0)+0);
+						
+						document.body.style.backgroundColor=`rgb(${r},${g},${b})`
+					}
+		</script>
+	</body>
+</html>
